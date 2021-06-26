@@ -1,6 +1,8 @@
 # Resume Builder
 
 ## Aim
+- Website where user can create and download resume
+
 
 ## Overview
 
@@ -17,7 +19,7 @@
 ## Add on features
 - Extra templates
 - Word document download
-- 
+- User can add templates
 
 
 ## Progress (Due Date: 3 July, 2021)
