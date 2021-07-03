@@ -1,0 +1,23 @@
+{
+  "name": "Resume-builder",
+  "version": "1.0.0",
+  "description": "- Website where user can create and download resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VAJRESH/Resume-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VAJRESH/Resume-builder/issues"
+  },
+  "homepage": "https://github.com/VAJRESH/Resume-builder#readme",
+  "dependencies": {
+    "html2pdf.js": "^0.9.3"
+  }
+}

@@ -17,16 +17,17 @@ function insertResume() {
 insertResume()
 
 function onClick() {
-    html2canvas(resumeView, {
-      onrendered: function(canvas) {
+  html2pdf(resumeView);
+    // html2canvas(resumeView, {
+    //   onrendered: function(canvas) {
 
-        var img = canvas.toDataURL("image/png");
-        var doc = new jsPDF();
-        doc.addImage(img, 'JPEG', 20, 20);
-        doc.save('test.pdf');
-      }
+    //     var img = canvas.toDataURL("image/png");
+    //     var doc = new jsPDF();
+    //     doc.addImage(img, 'JPEG', 20, 20);
+    //     doc.save('test.pdf');
+    //   }
 
-    });
+    // });
   };
   var element = document.getElementById("clickbind");
   element.addEventListener("click", onClick);
