@@ -20,6 +20,7 @@
 - Extra templates
 - Word document download
 - User can add templates
+- Make resume scanable
 
 
 ## Progress (Due Date: 3 July, 2021)
